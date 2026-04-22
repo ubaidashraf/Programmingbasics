@@ -5,12 +5,10 @@ int main() {
 
     printf("Enter a number: ");
     scanf("%d", &num);
-
-    if (num % 2 == 0) {
-        printf("The number is Even\n");
-    } else {
+        if (num % 2 == 0) {
+            printf("The number is Even\n");
+        } else {
         printf("The number is Odd\n");
+        }
+        return 0;
     }
-
-    return 0;
-}
