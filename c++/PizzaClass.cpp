@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// Without OOP: You have a bag of loose buttons, batteries, and circuits. Every time you want to change the channel, you connect them yourself. 🔌😩
+// With OOP: You have a remote (object). It already contains everything inside. You just press remote.changeChannel()
 class Pizza {
     public: 
         string size;
