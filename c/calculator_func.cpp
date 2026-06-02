@@ -7,8 +7,9 @@ float subtract(float a, float b) {
     return a - b;
 }
 float multiply(float a, float b) {
-    return a * b;
+    return a * b;   
 }
+ 
 float divide(float a, float b) {
     if (b == 0) {
         printf("Error: Division by zero\n");

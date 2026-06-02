@@ -4,11 +4,12 @@ using namespace std;
 // Without OOP: You have a bag of loose buttons, batteries, and circuits. Every time you want to change the channel, you connect them yourself. 🔌😩
 // With OOP: You have a remote (object). It already contains everything inside. You just press remote.changeChannel()
 class Pizza {
-    public: 
+     private:
         string size;
         string topping;
         double price;
-        
+
+     public:
        Pizza() {} 
 
        Pizza(string s, string t, double p) {
@@ -26,6 +27,10 @@ class Pizza {
             size = s;
             topping = t;
             price = p;
+       }
+
+       double GetPrice() {
+            return price;
        }
 
 
@@ -47,7 +52,7 @@ int main() {
     p4.ShowOrder();
     
 
-    double total = p1.price + p2.price + p3.price + p4.price;;
+    double total = p1.GetPrice() + p2.GetPrice() + p3.GetPrice() + p4.GetPrice();;
     cout << "--------------------------------------" << endl;
     cout << "Total Price: " << total << endl;
 
