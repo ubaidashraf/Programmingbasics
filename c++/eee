@@ -1,0 +1,25 @@
+<!-- Object-Oriented Programming (OOP)
+
+
+is a way of writing programs by thinking about real life objects
+
+Instead of writing one long list of instructions (like in C) ,
+we group data and functions together into units called classes. 
+Then we create objects from those classes. 
+
+
+
+
+Kcar
+
+Data: 
+Model name: Kcar v1 turbo
+Color : Red/Yellow/Green/Black/White
+Speed : 120km
+
+Functions:
+Start()
+Stop()
+Accelerate() -->
+
+
