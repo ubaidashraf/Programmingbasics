@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-int a[5] ,i,n,temp;
+int a[5] ,i,j,temp;
 
 printf("Enter the elements: ");
 
@@ -11,13 +11,13 @@ scanf("%d", &a[i]);
 }
 for (i=0;i<5;i++)
 {
-    for(n=i+1;n<5;n++)
+    for(j=i+1;j<5;j++)
     {
-        if( a[i]> a[n])
+        if( a[i]> a[j])
         {
             temp=a[i];
-            a[i]=a[n];
-            a[n]= temp;
+            a[i]=a[j];
+            a[j]= temp;
         }
     }
   }
