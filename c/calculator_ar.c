@@ -1,34 +1,42 @@
 #include <stdio.h>
 
 int main() {
-    int choice;
-    float a, b, result;
+    char op;
+    double num1, num2, result;
 
-    printf("1.Add  2.Subtract  3.Multiply  4.Divide\n");
-    printf("Enter choice: ");
-    scanf("%d", &choice);
+    // Input
+    printf("Enter an operator (+, -, *, /): ");
+    scanf("%c", &op);
 
     printf("Enter two numbers: ");
-    scanf("%f %f", &a, &b);
+    scanf("%lf %lf", &num1, &num2);
 
-    if (choice == 1) {
-        result = a + b;
-        printf("Result = %.2f\n", result);
-    } else if (choice == 2) {
-        result = a - b;
-        printf("Result = %.2f\n", result);
-    } else if (choice == 3) {
-        result = a * b;
-        printf("Result = %.2f\n", result);
-    } else if (choice == 4) {
-        if (b != 0) {
-            result = a / b;
-            printf("Result = %.2f\n", result);
-        } else {
-            printf("Error: Division by zero\n");
-        }
-    } else {
-        printf("Invalid choice\n");
+    // Calculation
+    switch(op) {
+        case '+':
+            result = num1 + num2;
+            printf("Result = %.2lf\n", result);
+            break;
+
+        case '-':
+            result = num1 - num2;
+            printf("Result = %.2lf\n", result);
+            break;
+
+        case '*':
+            result = num1 * num2;
+            printf("Result = %.2lf\n", result);
+            break;
+
+        case '/':
+            if(num2 != 0)
+                printf("Result = %.2lf\n", num1 / num2);
+            else
+                printf("Error! Division by zero.\n");
+            break;
+
+        default:
+            printf("Invalid operator.\n");
     }
 
     return 0;
