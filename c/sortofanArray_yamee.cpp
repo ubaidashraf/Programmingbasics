@@ -32,3 +32,14 @@ return 0;
 
 
 }
+
+
+// [5,1,4,2] 5>1, swap [1,5,4,2]    = > compare 5 with 4  5>4 = swap  [1,4,5,2]    5 >2 = swap  [1,4,2,5] 
+
+//  [1,4,2,5]  1>4 stay   
+   //4>2 - swap [1,2,4,5]
+   //pass 3 
+// [1,5,4,2] compare 5 and 4, swap
+// [1,4,5,2] compare 5 and 2, swap
+// [1,4,2,5] compare 4 and 2, swap
+// [1,2,4,5] compare 4 and 5, no swap

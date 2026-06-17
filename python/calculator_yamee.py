@@ -21,4 +21,4 @@ elif(choice==4):
 else:
     print("Invalid Choice")
 
-    print("4Result is {} .format(result)")
+print(f"Result is {result}")
