@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+</head>
+<body>
+    <h1>Hello Aboody!</h1>
+    <p>My local HTTP server is working.</p>
+</body>
+</html>
