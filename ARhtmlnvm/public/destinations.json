@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Maldives Paradise",
+    "price": 2500,
+    "rating": 4.9,
+    "image": "https://picsum.photos/id/29/400/250"
+  },
+  {
+    "name": "Dubai Luxury Escape",
+    "price": 1800,
+    "rating": 4.8,
+    "image": "https://picsum.photos/id/1040/400/250"
+  },
+  {
+    "name": "Swiss Alps Adventure",
+    "price": 2200,
+    "rating": 4.7,
+    "image": "https://picsum.photos/id/1036/400/250"
+  }
+]
